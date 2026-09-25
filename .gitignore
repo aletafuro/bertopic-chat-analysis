@@ -1,0 +1,32 @@
+# Secrets
+.env
+*.env
+
+# Checkpoint files (large, generated)
+*.pkl
+*_checkpoint_*.pkl
+preprocessing_clean_*.pkl
+embeddings_checkpoint_*.pkl
+
+# Output Excel files
+*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+
+# Python
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# Google Drive mounted
+/content/
+
+# AI analysis output
+Gemini_Analysis_*.txt
+Gemini_Pivot_Analysis_*.txt
